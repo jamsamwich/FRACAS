@@ -11,6 +11,14 @@ import Foundation
 
 
 class DataManager : NSObject, NSCoding{
+    func encode(with aCoder: NSCoder) {
+        <#code#>
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        <#code#>
+    }
+    
     
     var Levels : Int = 1
     
